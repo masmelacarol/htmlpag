@@ -1,0 +1,155 @@
+/*Globales*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    text-align: center;
+    font-family: 'Gill Sans MT', sans-serif;
+    margin: 0;
+    color: rgb(19, 18, 18);
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #171616;
+}
+
+.barra {
+    background: rgba(217, 172, 158);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*Cabecera*/
+
+.barra h1 {
+    padding-left: 100px;
+    color: #ffffff;
+}
+
+
+/*Barra de Navegación*/
+
+.navegador {
+    display: flex;
+    list-style: none;
+    padding-right: 80px;
+}
+
+.navegador a {
+    padding: 0 30px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.navegador a:hover {
+    color: #644c44;
+}
+
+
+/*Articulos*/
+
+.articulo {
+    margin: 30px;
+    width: 60%;
+    float: left;
+}
+
+.articulo article {
+    /*background-color: rgba(217, 172, 158, 0.5);*/
+    border: 1px solid rgba(217, 172, 158, 0.4);
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.articulo img {
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+}
+
+.articulo footer {
+    text-align: end;
+    margin-top: 10px;
+}
+
+.articulo time {
+    color: rgb(116, 102, 98);
+}
+
+
+/*Barra Lateral*/
+
+.barra-lateral {
+    width: 30%;
+    float: left;
+    margin: 30px 0;
+}
+
+.barra-lateral blockquote {
+    background-color: rgba(217, 172, 158, 0.5);
+    border: 1px solid rgba(217, 172, 158, 0.4);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.barra-lateral blockquote p {
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/*Footer*/
+
+.pie-pagina {
+    clear: both;
+    padding: 20px;
+    justify-content: center;
+}
+
+.pie-pagina p {
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.social a {
+    list-style: none;
+    padding: 0 10px;
+    align-content: center;
+}
+
+footer img {
+    margin: 0 4rem;
+    transform: rotate(360);
+    transition: 0.5s;
+}
+
+footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
