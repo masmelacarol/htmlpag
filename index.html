@@ -16,6 +16,8 @@
 <body>
     <header id="inicio" class="barra">
         <h1>Mi Blog</h1>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="icon-menu"> <img src="IMG/menu.png" alt=""></label>
         <nav class="navegador">
             <a href="#inicio"> Inicio </a>
             <a href="#articulos"> Articulos </a>
@@ -53,13 +55,13 @@
     </main>
 
     <aside class="barra-lateral">
-        <div>
-            <blockquote cite="https://errantesengris.wordpress.com/2010/09/07/la-sabiduria-de-albert-einstein/">
-                <p>«Quien nunca ha cometido un error nunca ha intentado nada nuevo».</p>
-                <p> - Albert Einstein</p>
-            </blockquote>
 
-        </div>
+        <blockquote cite="https://errantesengris.wordpress.com/2010/09/07/la-sabiduria-de-albert-einstein/">
+            <p>«Quien nunca ha cometido un error nunca ha intentado nada nuevo».</p>
+            <p> - Albert Einstein</p>
+        </blockquote>
+
+
 
         <blockquote cite="https://lamenteesmaravillosa.com/25-frases-del-maravilloso-mario-benedetti/">
             <p>«Me gusta la gente capaz de entender que el mayor error del ser humano, es intentar sacarse de la cabeza aquello que no sale del corazón».</p>
@@ -82,7 +84,24 @@
 
     </footer>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDV13girJEzB4bfZVtZR4-HuxpLVtotoh0",
+            authDomain: "html-c05d3.firebaseapp.com",
+            databaseURL: "https://html-c05d3.firebaseio.com",
+            projectId: "html-c05d3",
+            storageBucket: "",
+            messagingSenderId: "216526233047",
+            appId: "1:216526233047:web:d1024d9e3ebdd012"
+        };
+    </script>
 </body>
 
 </html>
